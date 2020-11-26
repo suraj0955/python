@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int a=10,b=10;
+	int a,b;
+	printf("enter two numbers:");
+	scanf("%d %d",&a,&b);
 	printf("%d\n",a+b);
 	printf("ratna\n");
 }
